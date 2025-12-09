@@ -67,7 +67,7 @@ void BucketSort(double arr[], int n) {
 }
 
 int main() {
-    ifstream file("a.txt");
+    ifstream file("LBWork6Alg.txt");
     double arr[100];
     int n = 0;
     while (file >> arr[n] && n < 100) n++;
